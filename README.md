@@ -4,7 +4,9 @@ Live site: https://android-study-studio-satdev.web.app/
 
 Repository: https://github.com/satdevkumar021-glitch/android-study-studio
 
-A separate local rebuild of Satdev Kumar’s Android interview preparation library. It preserves 97 chapters while replacing duplicated page shells with one shared, responsive reader.
+A published rebuild of Satdev Kumar’s Android interview preparation library. It preserves 97 chapters while replacing duplicated page shells with one shared, responsive reader.
+
+![Android Study Studio overview](docs/images/study-workspace.png)
 
 ## Run locally
 
@@ -58,4 +60,12 @@ Advertising is intentionally disabled for local review. `src/site-config.ts` con
 
 ## Validation
 
-Tests check all migrated chapters, catalog uniqueness, section integrity and rejection of executable markup. Production build includes TypeScript validation. Browser review covers reading and responsive layout. Remaining launch work: your local review, Firebase project selection, custom domain decision, and any separate advertising approval. The current public GitHub Pages site is unchanged by this local rebuild.
+Tests check all migrated chapters, catalog uniqueness, section integrity and rejection of executable markup. Production build includes TypeScript validation. Browser review covers reading and responsive layout. Remaining launch work: any custom domain decision and advertising approval/integration. The current public GitHub Pages site is unchanged by this local rebuild.
+
+## Contributing and security
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for setup, content standards and pull requests, and [SECURITY.md](SECURITY.md) for private vulnerability reporting. Avoid committing secrets or proprietary teaching examples.
+
+## License and provenance
+
+Original code and accompanying original teaching material are available under the [MIT License](LICENSE), copyright 2026 Satdev Kumar Sokhal. Reuse must preserve the copyright and license notice. Third-party dependencies and material retain their own licenses; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). A license is permission to reuse, not a security certification.
