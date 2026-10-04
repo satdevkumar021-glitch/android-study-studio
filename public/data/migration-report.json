@@ -1,0 +1,717 @@
+{
+  "version": 1,
+  "sourceCommit": "776fd70a802d69d09f44d4c72676b0a7e0f38e9d",
+  "checks": [
+    "Every catalogued source lesson is migrated",
+    "Code block text preserved exactly after repairing literal non-HTML tag starts",
+    "Quiz counts preserved and rendered as native details",
+    "Table counts preserved",
+    "Legacy scripts, navigation, inline handlers and styles removed"
+  ],
+  "totals": {
+    "topics": 97,
+    "sections": 875,
+    "quizzes": 966,
+    "codeBlocks": 1164,
+    "tables": 343
+  },
+  "repairs": [
+    {
+      "id": "1B",
+      "escapedNonHtmlTagStarts": 2
+    },
+    {
+      "id": "13B",
+      "escapedNonHtmlTagStarts": 1
+    },
+    {
+      "id": "34A",
+      "escapedNonHtmlTagStarts": 1
+    },
+    {
+      "id": "36A",
+      "escapedNonHtmlTagStarts": 2
+    }
+  ],
+  "lessons": [
+    {
+      "id": "1A",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 30,
+      "tables": 5
+    },
+    {
+      "id": "1B",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 31,
+      "tables": 4
+    },
+    {
+      "id": "1C",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 33,
+      "tables": 5
+    },
+    {
+      "id": "1D",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 30,
+      "tables": 6
+    },
+    {
+      "id": "1E",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 32,
+      "tables": 5
+    },
+    {
+      "id": "1F",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 24,
+      "tables": 4
+    },
+    {
+      "id": "1G",
+      "sections": 9,
+      "quizzes": 9,
+      "codeBlocks": 27,
+      "tables": 4
+    },
+    {
+      "id": "1H",
+      "sections": 9,
+      "quizzes": 9,
+      "codeBlocks": 25,
+      "tables": 5
+    },
+    {
+      "id": "1I",
+      "sections": 9,
+      "quizzes": 9,
+      "codeBlocks": 27,
+      "tables": 4
+    },
+    {
+      "id": "1J",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 27,
+      "tables": 6
+    },
+    {
+      "id": "2A",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 11,
+      "tables": 5
+    },
+    {
+      "id": "2B",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 7,
+      "tables": 8
+    },
+    {
+      "id": "2C",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 13,
+      "tables": 7
+    },
+    {
+      "id": "2D",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 11,
+      "tables": 7
+    },
+    {
+      "id": "2E",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 13,
+      "tables": 7
+    },
+    {
+      "id": "3A",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 2,
+      "tables": 2
+    },
+    {
+      "id": "3B",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 2,
+      "tables": 2
+    },
+    {
+      "id": "3C",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 3,
+      "tables": 2
+    },
+    {
+      "id": "3D",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 1,
+      "tables": 2
+    },
+    {
+      "id": "4A",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 1,
+      "tables": 2
+    },
+    {
+      "id": "4B",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 1,
+      "tables": 2
+    },
+    {
+      "id": "4C",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 1,
+      "tables": 2
+    },
+    {
+      "id": "5A",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 9,
+      "tables": 3
+    },
+    {
+      "id": "5B",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 10,
+      "tables": 3
+    },
+    {
+      "id": "5C",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 12,
+      "tables": 3
+    },
+    {
+      "id": "5D",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 9,
+      "tables": 3
+    },
+    {
+      "id": "5E",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 14,
+      "tables": 2
+    },
+    {
+      "id": "6A",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 9,
+      "tables": 2
+    },
+    {
+      "id": "6B",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 14,
+      "tables": 2
+    },
+    {
+      "id": "6C",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 12,
+      "tables": 2
+    },
+    {
+      "id": "6D",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 11,
+      "tables": 1
+    },
+    {
+      "id": "7A",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 11,
+      "tables": 1
+    },
+    {
+      "id": "7B",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 9,
+      "tables": 1
+    },
+    {
+      "id": "7C",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 10,
+      "tables": 1
+    },
+    {
+      "id": "7D",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 12,
+      "tables": 1
+    },
+    {
+      "id": "7E",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 8,
+      "tables": 5
+    },
+    {
+      "id": "7F",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 12,
+      "tables": 4
+    },
+    {
+      "id": "8A",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 8,
+      "tables": 3
+    },
+    {
+      "id": "8B",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 9,
+      "tables": 3
+    },
+    {
+      "id": "9A",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 17,
+      "tables": 3
+    },
+    {
+      "id": "10A",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 11,
+      "tables": 4
+    },
+    {
+      "id": "10B",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 9,
+      "tables": 4
+    },
+    {
+      "id": "10C",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 10,
+      "tables": 4
+    },
+    {
+      "id": "11A",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 13,
+      "tables": 4
+    },
+    {
+      "id": "11B",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 10,
+      "tables": 6
+    },
+    {
+      "id": "12A",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 7,
+      "tables": 7
+    },
+    {
+      "id": "12B",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 11,
+      "tables": 5
+    },
+    {
+      "id": "12C",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 10,
+      "tables": 4
+    },
+    {
+      "id": "13A",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 11,
+      "tables": 4
+    },
+    {
+      "id": "13B",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 10,
+      "tables": 3
+    },
+    {
+      "id": "13C",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 11,
+      "tables": 5
+    },
+    {
+      "id": "14A",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 7,
+      "tables": 2
+    },
+    {
+      "id": "14B",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 6,
+      "tables": 2
+    },
+    {
+      "id": "15A",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 6,
+      "tables": 1
+    },
+    {
+      "id": "16A",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 6,
+      "tables": 1
+    },
+    {
+      "id": "17A",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 7,
+      "tables": 1
+    },
+    {
+      "id": "18A",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 7,
+      "tables": 2
+    },
+    {
+      "id": "19A",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 8,
+      "tables": 1
+    },
+    {
+      "id": "19B",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 6,
+      "tables": 2
+    },
+    {
+      "id": "20A",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 6,
+      "tables": 2
+    },
+    {
+      "id": "20B",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 8,
+      "tables": 2
+    },
+    {
+      "id": "20C",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 9,
+      "tables": 1
+    },
+    {
+      "id": "21A",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 6,
+      "tables": 2
+    },
+    {
+      "id": "22A",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 5,
+      "tables": 2
+    },
+    {
+      "id": "23A",
+      "sections": 10,
+      "quizzes": 10,
+      "codeBlocks": 15,
+      "tables": 7
+    },
+    {
+      "id": "24A",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 13,
+      "tables": 3
+    },
+    {
+      "id": "25A",
+      "sections": 10,
+      "quizzes": 10,
+      "codeBlocks": 8,
+      "tables": 5
+    },
+    {
+      "id": "26A",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 11,
+      "tables": 5
+    },
+    {
+      "id": "27A",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 11,
+      "tables": 6
+    },
+    {
+      "id": "28A",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 12,
+      "tables": 2
+    },
+    {
+      "id": "28B",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 14,
+      "tables": 5
+    },
+    {
+      "id": "29A",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 12,
+      "tables": 2
+    },
+    {
+      "id": "30A",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 12,
+      "tables": 4
+    },
+    {
+      "id": "30B",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 14,
+      "tables": 3
+    },
+    {
+      "id": "30C",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 15,
+      "tables": 3
+    },
+    {
+      "id": "30D",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 14,
+      "tables": 3
+    },
+    {
+      "id": "30E",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 13,
+      "tables": 3
+    },
+    {
+      "id": "30F",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 3,
+      "tables": 5
+    },
+    {
+      "id": "30G",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 1,
+      "tables": 3
+    },
+    {
+      "id": "31A",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 11,
+      "tables": 4
+    },
+    {
+      "id": "32A",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 6,
+      "tables": 5
+    },
+    {
+      "id": "33A",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 6,
+      "tables": 2
+    },
+    {
+      "id": "33B",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 10,
+      "tables": 2
+    },
+    {
+      "id": "33C",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 3,
+      "tables": 6
+    },
+    {
+      "id": "34A",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 10,
+      "tables": 3
+    },
+    {
+      "id": "34B",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 10,
+      "tables": 3
+    },
+    {
+      "id": "34C",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 7,
+      "tables": 3
+    },
+    {
+      "id": "34D",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 9,
+      "tables": 3
+    },
+    {
+      "id": "34E",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 5,
+      "tables": 2
+    },
+    {
+      "id": "35A",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 0,
+      "tables": 3
+    },
+    {
+      "id": "36A",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 38,
+      "tables": 6
+    },
+    {
+      "id": "36B",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 16,
+      "tables": 4
+    },
+    {
+      "id": "37A",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 26,
+      "tables": 4
+    },
+    {
+      "id": "38A",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 15,
+      "tables": 5
+    },
+    {
+      "id": "39A",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 23,
+      "tables": 5
+    },
+    {
+      "id": "40A",
+      "sections": 9,
+      "quizzes": 10,
+      "codeBlocks": 31,
+      "tables": 7
+    },
+    {
+      "id": "41A",
+      "sections": 9,
+      "quizzes": 9,
+      "codeBlocks": 22,
+      "tables": 7
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "android-study-studio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/build-content.mjs && vite --host 127.0.0.1 --port 8790",
+    "build": "node scripts/build-content.mjs && tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 8791",
+    "migrate": "node scripts/migrate-content.mjs",
+    "test": "node scripts/build-content.mjs && node --test tests/*.test.mjs"
+  },
+  "devDependencies": {
+    "vite": "^7.3.1",
+    "typescript": "^5.9.3",
+    "linkedom": "^0.18.12"
+  }
+}
